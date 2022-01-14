@@ -289,8 +289,8 @@ button:hover {
 }
 
 .in_app_experience_content_1 img {
-    width: 350px;
     height: 320px;
+    width: 350px;
     border-radius: 10px;
 }
 
@@ -529,12 +529,13 @@ button:hover {
 
 .testimony img {
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    border: 2px rgb(114, 3, 3) solid;
+    width: 90px;
+    height: 100px;
+    background-color: transparent;
+    /* border: 2px rgb(114, 3, 3) solid; */
     position: absolute;
-    margin-top: -50px;
-    margin-left: -60px;
+    margin-top: -70px;
+    margin-left: -75px;
 }
 
 
@@ -685,6 +686,8 @@ button:hover {
         text-align: left;
 
     }
+
+
 
     /* EASY SYSTEM SETUP */
     .easy_system_setup {
