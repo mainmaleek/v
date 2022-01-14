@@ -721,7 +721,10 @@ button:hover {
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
-
+    .in_app_experience_content_1 img{
+        width: 250px;
+        height:300px;
+    }
     /* text */
     .in_app_experience_content_2 {
         flex-basis: 100%;
