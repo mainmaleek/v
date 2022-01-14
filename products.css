@@ -1,0 +1,269 @@
+@font-face {
+    font-family: Motiva Sans;
+    src: url(fonts/motiva-sans/MotivaSansRegular.woff.ttf);
+}
+/* base styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ALL ROWS (Flex-Box) */
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Motiva Sans", Sans-serif, -apple-system, system, sans-serif;
+
+}
+
+.container{
+    max-width:1800px;
+    margin: 0px auto 0px;
+}
+
+/* NAVIGATION */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+}
+
+.logo{
+    width:60px;
+    margin-right: auto;
+}
+
+li, a, button{
+    font-weight: 500;
+    font-family: Motiva Sans;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9
+}
+
+button{
+    padding: 9px 25px;
+    margin-left: 20px;
+    background-color: rgb(153, 3, 3);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(165, 152, 152);
+}
+
+/* PRODUCT LISTING */
+
+.products{
+    width: 100%;
+}
+
+.products .row{
+    justify-content: flex-start;
+}
+
+.products_listings h1{   
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 100px 0px 20px 50px;
+}
+
+.product_img{
+    margin: 15px 0px 15px 30px;
+}
+
+.product_img img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+
+}
+.product_description{
+    flex-basis: 60%;
+    padding: 0px 0px 0px 30px;  
+    align-self: center;
+}
+
+.product_description h2{
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.926);
+}
+
+.product_description p{
+    padding: 5px 0px 0px 0px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.611);
+}
+
+.product_description ul li{
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+    color: rgba(0, 0, 0, 0.933);
+    
+}
+
+.product_description button{
+    margin-left: 5px;
+    background-color: rgba(204, 51, 51, 0.808);
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.933);
+    padding: 5px 10px 5px 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(114, 3, 3);
+}
+
+hr{
+    width: 95%;
+    height: 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 0px auto;
+}
+
+
+/* FOOTER_NAV */
+.footer_nav{
+    width: 100%;
+    height:auto;
+    /* background-color:rgba(218, 218, 218, 0.46); */
+    margin: 20px 0px 20px 0px;
+    padding: 25px 0px 25px 0px;
+}
+
+.footer_nav .row{
+    justify-content: center;
+}
+
+.footer_nav_items_img, .footer_nav_items{
+    width: 20%;
+    height: auto;
+    color: rgba(27, 26, 26, 0.946);
+    padding: 10px 25px;
+}
+
+.footer_nav_items p a{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 16px;
+    line-height: 25px;
+}
+/* FOOTER */
+.footer{
+    width: 100%;
+    height:auto;
+    background-color:rgba(218, 218, 218, 0.46);
+    margin: 20px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+.footer .row{
+    justify-content: center;
+}
+
+.footer_content_1{
+    text-align: center;
+    font-size: 12px;
+    line-height:20px;
+    flex-basis: 80%;
+
+}
+
+.footer_content_1 p{
+    color: rgb(53, 51, 51, 1); 
+}
+
+
+
+@media only screen and (max-width:768px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+        
+    /* PRODUCT LISTING */
+    .products_listings h1{   
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        padding: 100px 0px 5px 5%;
+        margin-bottom: 10px;
+    }
+
+    .product_img{
+        flex-basis: 100%;
+        margin: 0px auto;
+    }
+
+    .product_description{
+        flex-basis: 100%;
+        align-self: auto;
+
+    }
+
+    .product_description h2{
+        font-size: 15px;
+    }
+
+    .product_description p{
+        font-size: 12px;
+    }
+
+    .product_description ul li{
+        font-size: 13px;
+    }
+
+    .product_description button{
+        font-size: 13px;
+    }
+    
+    button:hover{
+        background-color: rgb(114, 3, 3);
+    }
+
+    hr{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    
+     /* FOOTER_NAV */
+     .footer_nav_items_img, .footer_nav_items{
+         width: 100%;
+     }
+ 
+     .footer_nav_items p a{
+         font-size: 15px;
+     }
+
+}
