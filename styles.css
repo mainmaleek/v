@@ -289,7 +289,7 @@ button:hover {
 }
 
 .in_app_experience_content_1 img {
-    height: auto;
+    height: 300px;
     width: 170px;
     border-radius: 10px;
 }
@@ -685,8 +685,6 @@ button:hover {
         text-align: left;
 
     }
-
-
 
     /* EASY SYSTEM SETUP */
     .easy_system_setup {
