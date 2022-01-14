@@ -290,7 +290,7 @@ button:hover {
 
 .in_app_experience_content_1 img {
     width: 350px;
-    height: 350px;
+    height: auto;
     border-radius: 10px;
 }
 
