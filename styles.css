@@ -56,6 +56,10 @@ button {
     list-style: none;
 }
 
+.mobile__navlinks {
+    display: none;
+}
+
 .nav__links li {
     display: inline-block;
     padding: 0px 10px;
@@ -86,6 +90,9 @@ button:hover {
 
 }
 
+.dropdown_icon{
+    display: none;
+}
 
 /* BANNER */
 
@@ -190,7 +197,7 @@ button:hover {
 }
 
 .access_movies_anywhere_content_1 {
-    flex-basis: 40%;
+    width: 40%;
     margin-left: auto;
     text-align: center;
     /* text align works for images */
@@ -240,6 +247,8 @@ button:hover {
     text-align: justify;
     font-size: 20px;
     line-height: 25px;
+    padding: 0 30px 0px 0px;
+
 }
 
 .easy_system_setup_content_1 h1 {
@@ -621,25 +630,41 @@ button:hover {
 
 
     .nav__links {
-        list-style: none;
-        background-color: cadetblue;
-        position: absolute;
+        display: none;
     }
 
-    .nav__links li {
-        padding: 10px 10px;
+    .show{
         display: block;
+        
     }
 
-    .nav__links li a {
-        color: brown;
-        background-color: cadetblue;
-        transition: all 0.3s ease 0s;
+    .mobile__navlinks {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(255, 255, 255, 0.9);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-top: 90px;
     }
 
-    .nav__links li a:hover {
-        color: #0088a9
+    .mobile__navlinks a {
+        display: block;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 0.9);
+        font-size: 16px;
+        padding: 10px 25px 10px 25px;
+        margin-left: -5px;
+        /* line-height: 30px; */
     }
+
+    .dropdown_icon{
+        display: initial;
+        padding: 0px 0px 0px 10px;
+    }
+
+
 
     /* BANNER */
     .banner_text {
