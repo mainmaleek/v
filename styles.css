@@ -641,14 +641,12 @@ button:hover {
     .mobile__navlinks {
         position: absolute;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
-        background-color: rgba(255, 255, 255, 0.9);
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
         margin-top: 88px;
     }
-
+    
     .mobile__navlinks a {
         display: block;
         color: rgba(255, 255, 255, 1);
