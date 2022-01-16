@@ -646,7 +646,7 @@ button:hover {
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
-        margin-top: 91px;
+        margin-top: 85px;
     }
 
     .mobile__navlinks a {
@@ -662,7 +662,7 @@ button:hover {
         display: initial;
         padding: 10px 0px 10px 10px;
         z-index: 2;
-        font-size: 25px;
+        font-size: 20px;
     }
 
 
