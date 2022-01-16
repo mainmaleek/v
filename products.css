@@ -27,7 +27,7 @@ body{
 }
 
 /* NAVIGATION */
-header{
+header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,37 +38,42 @@ header{
     width: 100%;
 }
 
-.logo{
-    width:60px;
+.logo {
+    width: 60px;
     margin-right: auto;
 }
 
-li, a, button{
+li,
+a,
+button {
     font-weight: 500;
-    font-family: Motiva Sans;
     font-size: 15px;
     color: #000000;
     text-decoration: none;
 }
 
-.nav__links{
+.nav__links {
     list-style: none;
 }
 
-.nav__links li{
+.mobile__navlinks {
+    display: none;
+}
+
+.nav__links li {
     display: inline-block;
     padding: 0px 10px;
 }
 
-.nav__links li a{
+.nav__links li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:hover{
+.nav__links li a:hover {
     color: #0088a9
 }
 
-button{
+button {
     padding: 9px 25px;
     margin-left: 20px;
     background-color: rgb(153, 3, 3);
@@ -76,11 +81,19 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    color: rgb(256, 256, 256);
+    font-weight: bold;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(165, 152, 152);
+
 }
+
+.dropdown_icon{
+    display: none;
+}
+
 
 /* PRODUCT LISTING */
 
@@ -211,7 +224,46 @@ hr{
         display: flex;
         flex-direction: column;
     }
+     /* NAVIGATION */
+
+
+     .nav__links {
+        display: none;
+    }
+
+    .show{
+        display: block;
         
+    }
+
+    .mobile__navlinks {
+        position: absolute;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(255, 255, 255, 0.9);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        margin-top: 85px;
+    }
+
+    .mobile__navlinks a {
+        display: block;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 0.9);
+        font-size: 14px;
+        padding: 20px 25px 20px 25px;
+        margin-left: -5px;
+        /* line-height: 30px; */
+    }
+
+    .dropdown_icon{
+        display: initial;
+        padding: 10px 0px 10px 10px;
+        z-index: 2;
+        font-size: 20px;
+    }
+           
     /* PRODUCT LISTING */
     .products_listings h1{   
         color: rgb(0, 0, 0);

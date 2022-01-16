@@ -3,24 +3,38 @@
         <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title>Products | Viewmax</title>
-            <meta name="description" content="">
+            <meta name="description" content="Purchase Viewmax Supported Cinema Equipment">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="products.css">
-    </head>
-    <body>
-        <header>
-            <a class="logo" href="index.html"><img class="logo" src="images/blackViewmax.svg" alt="viewmax technologies africa"></a>
-            <nav>
-                <ul class="nav__links">
-                    <li><a href="">Film Distributors</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="">FAQ</a></li>
-                </ul>
-            </nav>
-            <a class="contact_us" href="contact.html"><button>Contact</button></a>
-
-        </header>
-        
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        </head>
+        <script>
+            function myFunction(){
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+        <body>
+            <header>
+                <a class="logo" href="index.html"><img class="logo" src="images/blackViewmax.svg"
+                        alt="viewmax technologies africa"></a>
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="">Film Distributors</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </nav>
+                
+                <a class="contact_us" href="contact.html"><button>Contact</button></a>
+                
+                <span class="dropdown_icon" onclick="myFunction()"><i class="fas fa-bars"></i></span>
+                <div id="myDropdown" class="mobile__navlinks">
+                    <a href="contact.html">Film Distributors</a>
+                    <a href="products.html">Products - Viewmax Supported Equipment</a>
+                    <!-- <a href="">FAQ</a> -->
+                </div>
+            </header>
+            
         <div class="container">
             <section class="products_listings">
                 <h1>Products</h1>
@@ -103,15 +117,16 @@
                 </div>
             </section>
                 
-                <section class="footer">
-                    <div class="row">
-                        <div class="footer_content_1">
-                            <p>The Viewmax logo and technologies are trademark properties of Viewmax Entertainment LLC and its regional subsidiaries. 
-                                <br>&#169; 2021 Viewmax Entertainment LLC. All Rights Reserved.
-                            </p>
-                        </div>
-                    </div>
-                </section>
+        <section class="footer">
+            <div class="row">
+                <div class="footer_content_1">
+                    <p>The Viewmax logo and technologies are trademark properties of Viewmax 娱乐公司 LLC and its
+                        regional subsidiaries.
+                        <br>&#169; 2021 Viewmax 娱乐公司 LLC. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </section>
 
             </div>
         </body>
