@@ -200,6 +200,7 @@ button:hover {
     width: 40%;
     margin-left: auto;
     text-align: center;
+    background-color: aqua;
     /* text align works for images */
 }
 
@@ -646,7 +647,7 @@ button:hover {
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
-        margin-top: 85px;
+        margin-top: 88px;
     }
 
     .mobile__navlinks a {
