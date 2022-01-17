@@ -266,14 +266,14 @@ button:hover {
 .easy_system_setup_content_2 {
     flex-basis: 40%;
     margin-right: auto;
-    padding: 10px 0px 10px 30px;
+    padding: 10px 0px 10px 50px;
     text-align: center;
     /* text align works for images */
 }
 
 .easy_system_setup_content_2 img {
     width: 350px;
-    height: 300px;
+    height: 248px;
     border-radius: 10px;
 
 

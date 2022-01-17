@@ -239,25 +239,22 @@ textarea::placeholder {
     .mobile__navlinks {
         position: absolute;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.9);
-        background-color: rgba(255, 255, 255, 0.9);
         transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
-        margin-top: 85px;
+        margin-top: 88px;
     }
-
+    
     .mobile__navlinks a {
         display: block;
         color: rgba(255, 255, 255, 1);
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.97);
         font-size: 14px;
         padding: 20px 25px 20px 25px;
         margin-left: -5px;
-        /* line-height: 30px; */
     }
 
-    .dropdown_icon {
+    .dropdown_icon{
         display: initial;
         padding: 10px 0px 10px 10px;
         z-index: 2;
