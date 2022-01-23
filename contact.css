@@ -254,17 +254,36 @@ textarea::placeholder {
         margin-left: -5px;
     }
 
-    .dropdown{
+    .dropdown {
         display: initial;
-        padding: 10px 0px 10px 10px;
+        padding: 8px 0px 8px 10px;
         z-index: 2;
     }
 
-    .tri_bars{
-        width: 20px;
-        height: 3px;
-        margin: 3px 0px;
+    .tri_bars {
+        width: 25px;
+        height: 2px;
+        margin: 4px 0px;
         background-color: #000000;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-6px, 7px);
+        transform: rotate(-45deg) translate(-6px, 7px);
+        translate: rotate(-45deg) translate(-6px, 7px);
+
+    }
+
+    .change .bar2 { 
+        opacity: 0;
+
+    }
+
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-1px, -3px);
+        transform: rotate(45deg) translate(-1px, -3px);
+        translate: rotate(45deg) translate(-1px, -3px);
     }
 
     /* CONTACT FORM */

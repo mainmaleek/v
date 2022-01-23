@@ -670,9 +670,9 @@ button:hover {
     }
 
     .change .bar1 {
-        /* -webkit-transform: rotate(-45deg) translate(-9px, 6px); */
+        -webkit-transform: rotate(-45deg) translate(-6px, 7px);
         transform: rotate(-45deg) translate(-6px, 7px);
-        /* translate: rotate(-45deg) translate(-9px, 6px); */
+        translate: rotate(-45deg) translate(-6px, 7px);
 
     }
 
@@ -682,9 +682,9 @@ button:hover {
     }
 
     .change .bar3 {
-        /* -webkit-transform: rotate(45deg) translate(-8px, -8px); */
+        -webkit-transform: rotate(45deg) translate(-1px, -3px);
         transform: rotate(45deg) translate(-1px, -3px);
-        /* translate: rotate(45deg) translate(-8px, -8px); */
+        translate: rotate(45deg) translate(-1px, -3px);
     }
 
 
