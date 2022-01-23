@@ -87,10 +87,9 @@ button {
 
 button:hover {
     background-color: rgb(165, 152, 152);
-
 }
 
-.dropdown_icon{
+.dropdown_icon {
     display: none;
 }
 
@@ -207,7 +206,7 @@ button:hover {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    
+
 }
 
 .access_movies_anywhere_content_2 {
@@ -633,9 +632,9 @@ button:hover {
         display: none;
     }
 
-    .show{
+    .show {
         display: block;
-        
+
     }
 
     .mobile__navlinks {
@@ -646,7 +645,7 @@ button:hover {
         left: 50%;
         margin-top: 88px;
     }
-    
+
     .mobile__navlinks a {
         display: block;
         color: rgba(255, 255, 255, 1);
@@ -656,21 +655,39 @@ button:hover {
         margin-left: -5px;
     }
 
-    .dropdown{
+    .dropdown {
         display: initial;
-        padding: 10px 0px 10px 10px;
+        padding: 8px 0px 8px 10px;
         z-index: 2;
-        cursor: none;
     }
 
-    .tri_bars{
-        width: 18px;
-        height: 3px;
-        margin: 3px 0px;
+    .tri_bars {
+        width: 25px;
+        height: 2px;
+        margin: 4px 0px;
         background-color: #000000;
-        cursor: none;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        /* -webkit-transform: rotate(-45deg) translate(-9px, 6px); */
+        transform: rotate(-45deg) translate(-6px, 7px);
+        /* translate: rotate(-45deg) translate(-9px, 6px); */
 
     }
+
+    .change .bar2 { 
+        opacity: 0;
+
+    }
+
+    .change .bar3 {
+        /* -webkit-transform: rotate(45deg) translate(-8px, -8px); */
+        transform: rotate(45deg) translate(-1px, -3px);
+        /* translate: rotate(45deg) translate(-8px, -8px); */
+    }
+
+
 
 
 
