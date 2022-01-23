@@ -656,11 +656,20 @@ button:hover {
         margin-left: -5px;
     }
 
-    .dropdown_icon{
+    .dropdown{
         display: initial;
         padding: 10px 0px 10px 10px;
         z-index: 2;
-        font-size: 20px;
+        cursor: none;
+    }
+
+    .tri_bars{
+        width: 18px;
+        height: 3px;
+        margin: 3px 0px;
+        background-color: #000000;
+        cursor: none;
+
     }
 
 
