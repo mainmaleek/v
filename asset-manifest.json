@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4f5fb38.css",
+    "main.js": "/static/js/main.913884d4.js",
+    "static/js/787.631e9007.chunk.js": "/static/js/787.631e9007.chunk.js",
+    "static/media/africa.png": "/static/media/africa.2fea568a79c688a9be29.png",
+    "static/media/app.png": "/static/media/app.0ec0023dc15636444956.png",
+    "static/media/Untitled-5.png": "/static/media/Untitled-5.e6c9597993082b3f61b7.png",
+    "static/media/viewmax-projector2.png": "/static/media/viewmax-projector2.71b644388abe0eea079b.png",
+    "static/media/banner.jpg": "/static/media/banner.79466e15f9f7faa3b9ae.jpg",
+    "static/media/Untitled-2.png": "/static/media/Untitled-2.8c64de21f5389101b72e.png",
+    "static/media/explore.jpg": "/static/media/explore.b2245327ac32ada0b0a4.jpg",
+    "static/media/viewmax-projector.png": "/static/media/viewmax-projector.bebfd51af5eae188fd14.png",
+    "static/media/viewmax_system.jpg": "/static/media/viewmax_system.d1cd00960d6a5573165a.jpg",
+    "static/media/MotivaSansRegular.woff.ttf": "/static/media/MotivaSansRegular.woff.a576eb133febecaf8aef.ttf",
+    "static/media/blackViewmax.svg": "/static/media/blackViewmax.4422f2a982bf5bebfc4917d38a93ab9d.svg",
+    "static/media/whiteViewmax.svg": "/static/media/whiteViewmax.d7e2b0db026f83dd458fd36d64add43e.svg",
+    "static/media/setup.png": "/static/media/setup.a9eb0dfa3f3fc9b2e642.png",
+    "static/media/approve.png": "/static/media/approve.892411aeb7bf116aa3df.png",
+    "index.html": "/index.html",
+    "main.f4f5fb38.css.map": "/static/css/main.f4f5fb38.css.map",
+    "main.913884d4.js.map": "/static/js/main.913884d4.js.map",
+    "787.631e9007.chunk.js.map": "/static/js/787.631e9007.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f5fb38.css",
+    "static/js/main.913884d4.js"
+  ]
+}
