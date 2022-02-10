@@ -134,6 +134,9 @@ button:hover {
     width: 250px;
     padding: 7px;
     color: rgb(0, 0, 0);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 textarea {
